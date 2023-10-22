@@ -29,19 +29,18 @@
 .contenedor-img-Bingo {
   display: flex;
   justify-content: center;
-  padding-left: 32rem;
+  padding-left: 512px;
   height: max-content;
   position: relative;
   top: -100px;
-  
+
   padding-bottom: 100px;
 }
 .imagen-bingo1 {
-  width: 25rem;
-  height: 28rem;
+  width: 380px;
+  height: auto;
   display: flex;
   z-index: 10;
-  
 }
 .contenedor-segundaParte {
   position: relative;
@@ -59,21 +58,18 @@
   position: relative;
   bottom: -50px;
   padding: 100px 50px;
-  color:  #3e416c;
-  
+  color: #3e416c;
 }
 
 .contenedor-texto-aitana {
   font-size: 30px;
-  
-  margin: auto;
-  
-}
-.contenedor-texto-aitana p{
-    width: 100%;
-    padding-left: 170px;
-}
 
+  margin: auto;
+}
+.contenedor-texto-aitana p {
+  width: 100%;
+  padding-left: 170px;
+}
 
 .contenedor-img-aitana {
   position: relative;
@@ -136,9 +132,51 @@ footer {
   text-align: center;
   width: 100%;
   padding: 20px;
-  background-color:  #8de2f8;
+  background-color: #8de2f8;
 }
 footer p {
   margin: 0;
 }
 
+@media (max-width: 576px) {
+
+  .contenedor-primeraParte {
+    height: 100vh;
+    width: 100%;
+    margin-right: 0;
+  }
+  .imagen-titulo {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 90px;
+  }
+
+  .contenedor-img-Bingo {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    height: max-content;
+    position: relative;
+    top: -100px;
+  
+    padding-bottom: 100px;
+  }
+  .imagen-bingo1 {
+    max-width: 100%;
+    height: 28rem;
+    display: flex;
+    z-index: 10;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
