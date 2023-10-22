@@ -17,7 +17,7 @@
 }
 .contenedor-primeraParte {
   height: 100vh;
-
+text-align: center;
   margin-right: 100px;
 }
 .contendor-titulo {
@@ -158,7 +158,7 @@ footer p {
 
   .imagen-tituloMobile {
     display: block;
-    width: 150px;
+    width: 250px;
     margin: auto;
     padding: 30px 0;
   }
@@ -169,7 +169,7 @@ footer p {
     top: 20px;
   }
   .imagen-bingo1 {
-    width: 100px;
+    width: 250px;
     height: auto;
   }
 
@@ -180,7 +180,11 @@ footer p {
     display: flex;
     flex-direction: column;
     margin: 15px;
+    margin-bottom: 0;
     padding: 20px;
+    position: relative;
+    top: 30px;
+    color: #3e416c;
   }
   .contenedor-img-aitanaMobile {
     margin: auto;
@@ -190,10 +194,11 @@ footer p {
     margin: auto;
   }
   .contenedor-final-mobile {
-    margin: 15px;
+    margin: 0px;
     background-color: #3e416c;
     color: #8de2f8;
     padding: 20px;
+    padding-top: 50px;
   }
 
   .contenedor-img-bingo2-mobile {
@@ -201,17 +206,21 @@ footer p {
     justify-content: center;
   }
   .imagen-bingo2-mobile {
-    width: 100px;
+    width: 150px;
     height: auto;
   }
   .contenedor-btn-mobile {
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 20px 0;
+    
   }
   .contenedor-btn-mobile button {
     background-color: #ffde8c;
     color: #3e416c;
     border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    
   }
 }

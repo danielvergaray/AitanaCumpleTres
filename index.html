@@ -19,13 +19,14 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="contenedor-general-desktop">
       <div class="contenedor-primeraParte">
         <div class="contenedor-titulo">
-          <img
+          <img data-aos="zoom-in
             class="imagen-titulo"
             src="./imagenes/LOGONANA.png"
             alt="titulo"
@@ -43,10 +44,10 @@
       <div class="contenedor-segundaParte">
         <div class="contenedor-inforAitana">
           <div class="contenedor-img-aitana">
-            <img class="imagen-aitana" src="./imagenes/FOTONANA.png" alt="" />
+            <img data-aos="flip-down" class="imagen-aitana" src="./imagenes/FOTONANA.png" alt="" />
           </div>
           <div class="contenedor-texto-aitana">
-            <p>
+            <p data-aos="zoom-in">
               <span>
                 "Conozco a una niña que puede iluminar una habitación entera
                 sólo con su sonrisa,
@@ -59,12 +60,12 @@
         </div>
         <div class="contenedor-final">
           <div class="contenedor-texto-final">
-            <p>
+            <p data-aos="zoom-in">
               La vida es más bella con amigos y tú eres uno de ellos. Ven y
               acompáñanos en este día tan especial donde celebraremos la vida de
               nuestra pequeña Aitana.
             </p>
-            <p>
+            <p data-aos="zoom-in">
               Día: Sábado 28 de octubre <br />
               Hora: 3pm <br />
               Lugar: Parque Bustamante <br />Ingreso: Av. del Parque cdra. 3 o
@@ -91,7 +92,7 @@
 
     <div class="main-general-mobile">
       <div class="contenedor-tituloMobile">
-        <img
+        <img data-aos="zoom-in"
           class="imagen-tituloMobile"
           src="./imagenes/LOGONANAMOBILE.png"
           alt="titulo"
@@ -102,7 +103,7 @@
       </div>
       <div class="contenedor-inforAitanaMobile">
         <div class="contenedor-texto-aitanaMobile">
-          <p>
+          <p data-aos="zoom-in">
             <span>
               "Conozco a una niña que puede iluminar una habitación entera sólo
               con su sonrisa,
@@ -112,8 +113,8 @@
             conoces te robará el corazón"
           </p>
         </div>
-        <div class="contenedor-img-aitanaMobile">
-          <img
+        <div  class="contenedor-img-aitanaMobile">
+          <img data-aos="flip-down"
             class="imagen-aitanaMobile"
             src="./imagenes/FOTONANA.png"
             alt=""
@@ -122,12 +123,12 @@
       </div>
       <div class="contenedor-final-mobile">
         <div class="contenedor-texto-final-mobile">
-          <p>
+          <p data-aos="zoom-in">
             La vida es más bella con amigos y tú eres uno de ellos. Ven y
             acompáñanos en este día tan especial donde celebraremos la vida de
             nuestra pequeña Aitana.
           </p>
-          <p>
+          <p data-aos="zoom-in">
             Día: Sábado 28 de octubre <br />
             Hora: 3pm <br />
             Lugar: Parque Bustamante <br />Ingreso: Av. del Parque cdra. 3 o
@@ -143,20 +144,24 @@
           />
         </div>
         <div class="contenedor-btn-mobile">
-            <a
-              target="_blank"
-              href="https://www.google.com/maps/place/Parque+Bustamante,+(altura+cuadra+35+de+Av.+Paseo+de+la+Rep%C3%BAblica),+Av+del+Parque+cdra.+3,+San+Isidro+15047/@-12.1007166,-77.0226264,17z/data=!4m6!3m5!1s0x9105c86e2ff3dc25:0xb94e4b42aa4aa7b1!8m2!3d-12.0999962!4d-77.0228017!16s%2Fg%2F11bvtgc3np?entry=ttu"
-            >
-              <button id="btnVerMapa" type="button" class="btn btn-primary">
-                VER MAPA
-              </button>
-            </a>
-          </div>
+          <a
+            target="_blank"
+            href="https://www.google.com/maps/place/Parque+Bustamante,+(altura+cuadra+35+de+Av.+Paseo+de+la+Rep%C3%BAblica),+Av+del+Parque+cdra.+3,+San+Isidro+15047/@-12.1007166,-77.0226264,17z/data=!4m6!3m5!1s0x9105c86e2ff3dc25:0xb94e4b42aa4aa7b1!8m2!3d-12.0999962!4d-77.0228017!16s%2Fg%2F11bvtgc3np?entry=ttu"
+          >
+            <button id="btnVerMapa" type="button" class="btn btn-primary">
+              VER MAPA
+            </button>
+          </a>
+        </div>
       </div>
     </div>
 
     <footer>
       <p>Copyright © 2023 AitanaCumpleTres. Todos los derechos reservados</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
