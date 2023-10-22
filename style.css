@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tilt Neon";
+  font-weight: bolder;
+}
+.contenedor-general {
+  background-image: url("/imagenes/FONDO.png");
+  background-position: center top;
+  background-size: contain;
+  height: min-content;
+
+  width: 100%;
+}
+.contenedor-primeraParte {
+  height: 100vh;
+  z-index: 50;
+  margin-right: 100px;
+}
+.contendor-titulo {
+  margin: 0;
+}
+
+.imagen-titulo {
+  width: 30rem;
+  margin: auto;
+  display: flex;
+  padding-top: 90px;
+}
+.contenedor-img-Bingo {
+  display: flex;
+  justify-content: center;
+  padding-left: 32rem;
+  position: relative;
+  top: -240px;
+}
+.imagen-bingo1 {
+  width: 28rem;
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  z-index: 10;
+}
+.contenedor-segundaParte {
+  position: relative;
+  top: 43px;
+  z-index: 1;
+}
+.contenedor-inforAitana {
+  border: 1px solid #ffde8c;
+  background-color: #ffde8c;
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  position: relative;
+  bottom: -50px;
+  padding: 50px;
+  color:  #3e416c;
+  
+}
+
+.contenedor-texto-aitana {
+  font-size: 30px;
+  
+  margin: auto;
+  
+}
+.contenedor-texto-aitana p{
+    width: 100%;
+    padding-left: 170px;
+}
+
+
+.contenedor-img-aitana {
+  position: relative;
+  left: 0px;
+}
+.imagen-aitana {
+  width: 25rem;
+}
+.contenedor-final {
+  background-color: #3e416c;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: max-content;
+  padding-bottom: 50px;
+}
+.contenedor-texto-final {
+  grid-column: 1;
+  margin: auto;
+  width: 70%;
+  color: white;
+}
+.contenedor-texto-final p {
+  font-size: 30px;
+  padding: 20px 0;
+  margin-left: 100px;
+}
+.contenedor-texto-final :nth-child(2) {
+  color: 8de2f8;
+  font-size: 25px;
+}
+.contenedor-img-bingo2 {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+}
+.imagen-bingo2 {
+  width: 30rem;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: -20px;
+  right: 100px;
+}
+.contenedor-btn {
+  position: relative;
+  top: -100px;
+
+  margin-left: 230px;
+}
+.contenedor-btn button {
+  background-color: #ffde8c;
+  color: #3e416c;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 40px;
+  font-family: "Tilt Neon", sans-serif;
+  font-weight: bolder;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color:  #8de2f8;
+}
+footer p {
+  margin: 0;
+}
+
