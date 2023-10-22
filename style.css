@@ -6,7 +6,7 @@
   font-weight: bolder;
 }
 .contenedor-general {
-  background-image: url("/imagenes/FONDO.png");
+  background-image: url("./imagenes/FONDO.png");
   background-position: center top;
   background-size: contain;
   height: min-content;
