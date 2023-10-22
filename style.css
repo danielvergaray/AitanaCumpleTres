@@ -5,7 +5,11 @@
   font-family: "Tilt Neon";
   font-weight: bolder;
 }
-.contenedor-general {
+.imagen-tituloMobile,
+.main-general-mobile {
+  display: none;
+}
+.contenedor-general-desktop {
   background-image: url("./imagenes/FONDO.png");
   background-position: center top;
   background-size: contain;
@@ -139,44 +143,75 @@ footer p {
 }
 
 @media (max-width: 576px) {
-
-  .contenedor-primeraParte {
-    height: 100vh;
+  .imagen-titulo,
+  .contenedor-general-desktop {
+    display: none;
+  }
+  .main-general-mobile {
+    background-image: url("./imagenes/FONDOMOBILE.png");
+    background-position: center;
+    background-size: contain;
     width: 100%;
-    margin-right: 0;
-  }
-  .imagen-titulo {
-    max-width: 100%;
-    margin: auto;
     display: flex;
-    padding-top: 90px;
+    flex-direction: column;
   }
 
-  .contenedor-img-Bingo {
+  .imagen-tituloMobile {
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 30px 0;
+  }
+  .contenedor-img-BingoMobile {
     display: flex;
     justify-content: center;
-    padding-left: 0;
-    height: max-content;
     position: relative;
-    top: -100px;
-  
-    padding-bottom: 100px;
+    top: 20px;
   }
   .imagen-bingo1 {
-    max-width: 100%;
-    height: 28rem;
-    display: flex;
-    z-index: 10;
+    width: 100px;
+    height: auto;
   }
 
+  .contenedor-inforAitanaMobile {
+    border: 1px solid #ffde8c;
+    background-color: #ffde8c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+  }
+  .contenedor-img-aitanaMobile {
+    margin: auto;
+  }
+  .imagen-aitanaMobile {
+    width: 200px;
+    margin: auto;
+  }
+  .contenedor-final-mobile {
+    margin: 15px;
+    background-color: #3e416c;
+    color: #8de2f8;
+    padding: 20px;
+  }
 
-
-
-
-
-
-
-
-
-
+  .contenedor-img-bingo2-mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .imagen-bingo2-mobile {
+    width: 100px;
+    height: auto;
+  }
+  .contenedor-btn-mobile {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  .contenedor-btn-mobile button {
+    background-color: #ffde8c;
+    color: #3e416c;
+    border-radius: 10px;
+  }
 }
