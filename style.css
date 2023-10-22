@@ -30,17 +30,18 @@
   display: flex;
   justify-content: center;
   padding-left: 32rem;
+  height: max-content;
   position: relative;
-  top: -15rem;
-  height: fit-content;
+  top: -100px;
+  
+  padding-bottom: 100px;
 }
 .imagen-bingo1 {
   width: 28rem;
-  height: 38rem;
+  height: 28rem;
   display: flex;
-  margin-top: 50px;
-  position: relative;
   z-index: 10;
+  
 }
 .contenedor-segundaParte {
   position: relative;
